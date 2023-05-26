@@ -7,11 +7,11 @@
 
 .navbar__main{
     background-color:#000 ;    
-    height: 5vh;
+    height: 10vh;
 
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;    
 }   
 
 .navbar__main .navbar__list {
@@ -23,16 +23,40 @@
     gap: 20px;
 }
 
+.navbar__main .navbar__list .navbar__link:hover {
+    color: yellow;
+    transition: 0.2s;
+}
+
 .main__container {
+    height: 85vh;
+
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 90vh;
+
+    background-image: url('https://images.unsplash.com/photo-1523294587484-bae6cc870010?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1602&q=80');
+    background-size: cover;
+
+    color: #fff;
+    /* font-size: 5rem; */
+}
+
+.main__contianer, h1 {
+    font-size: 4rem;
+    position: fixed;
+    top: 40%;
+    bottom: 40%;
+    left: 10px;
 }
 
 .footer__container {
     height: 5vh;
     background-color: black;
-    color: black;
+    color: #fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
