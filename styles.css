@@ -8,6 +8,10 @@
 .navbar__main{
     background-color:#000 ;    
     height: 5vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }   
 
 .navbar__main .navbar__list {
